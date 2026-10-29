@@ -1,0 +1,11 @@
+# Working set for this Intel Mac (PyTorch has no Intel-Mac wheels after 2.2.2).
+# Install: uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python -r requirements-intel-mac.txt
+torch==2.2.2
+transformers==4.51.3
+datasets==3.5.0
+peft==0.15.2
+accelerate==1.6.0
+numpy<2
+pyarrow<20
+ipykernel
+matplotlib
